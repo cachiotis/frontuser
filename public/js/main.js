@@ -1,5 +1,5 @@
 // URL base del backend (actualiza con tu dominio o IP pública)
-const API_BASE_URL = "https://login-backend-70nm.onrender.com"; // Sustituye con la URL de tu backend desplegado
+const API_BASE_URL = "https://backuser-qlqs.onrender.com"; // Sustituye con la URL de tu backend desplegado
 
 // Manejador para el formulario de registro
 document.getElementById('registerForm').addEventListener('submit', async (e) => {
