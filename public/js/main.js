@@ -36,7 +36,7 @@ document.getElementById('loginForm').addEventListener('submit', async (e) => {
         const data = await res.json();
         if (data.token) {
             alert('Login exitoso');
-            window.location.href = 'views/paginaUsuario.html';
+            window.location.href = '/views/paginaUsuario.html';
             localStorage.setItem('token', data.token);
         } else {
             alert(data.error);
